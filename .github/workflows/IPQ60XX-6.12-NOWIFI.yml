@@ -104,7 +104,6 @@ jobs:
           [ -e $CONFIG_FILE ] && mv $CONFIG_FILE $OPENWRT_PATH/.config
           chmod +x $DIY_SCRIPT
           cd $OPENWRT_PATH
-          curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
           $GITHUB_WORKSPACE/$DIY_SCRIPT
   
       - name: Download DL Package(下载DL软件包)
