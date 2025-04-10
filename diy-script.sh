@@ -36,7 +36,7 @@ git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot package/luci-ap
 git clone --depth=1 https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 git clone --depth=1 https://github.com/animegasan/luci-app-wolplus.git package/luci-app-wolplus
-
+git clone --depth=1 https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
