@@ -10,8 +10,6 @@
 # TTYD 免登录
  sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
  
-# 在线用户
-sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 
 # 移除要替换的包
 rm -rf feeds/packages/net/mosdns
@@ -42,7 +40,6 @@ git clone --depth=1 https://github.com/animegasan/luci-app-wolplus.git package/l
 
 # Themes
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone --depth=1 https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kuca
 
 # msd_lite
 git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
